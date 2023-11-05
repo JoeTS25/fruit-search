@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box; 
+  margin: 0;
+  padding: 0;
+}
+
+:focus {
+ /* TODO */
+}
+
+body {
+  background-color: rgb(24, 135, 209);
+  
+}
+
+input {
+ flex: 1;
+ height: 50px;
+ width: 500px;
+ background: transparent;
+ border: 0;
+ font-size: 18px;
+ color: black;
+ }
+
+.search-container {
+ width: 500px;
+ background-color: white;
+ margin: 200px auto 0;
+ border-radius: 5px;
+}
+.search-container input,
+.search-container .suggestions {
+  
+}
+.search-container input {
+
+}
+.search-container .suggestions {
+  
+  list-style: none;
+}
+
+ul {
+ 
+}
+ul.has-suggestions {
+  
+}
+ul li {
+  cursor: pointer;
+  list-style: none;
+}
+ul li:hover {
+  background-color: rgb(216, 209, 209);
+}
+
